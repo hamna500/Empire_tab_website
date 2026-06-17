@@ -99,14 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const appleStoreLink = document.getElementById('apple-store-link');
     const googlePlayLink = document.getElementById('google-play-link');
 
-    if (appleStoreLink) {
-        appleStoreLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            // Replace with actual App Store URL when published
-            alert('App Store link will be available soon! App is currently in development.');
-            // window.open('https://apps.apple.com/app/your-app-id', '_blank');
-        });
-    }
+    // AspireLearn is live on the App Store — let the link's href open normally.
+    // (No click handler needed; the anchor opens https://apps.apple.com/us/app/aspirelearn/id6761440623)
 
     if (googlePlayLink) {
         googlePlayLink.addEventListener('click', (e) => {
